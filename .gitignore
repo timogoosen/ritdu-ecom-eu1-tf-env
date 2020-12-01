@@ -1,0 +1,11 @@
+.DS_Store
+
+# terraform specific
+/terraform.tfstate*
+/.terraform/**
+/*.plan
+/output.json
+
+# future...
+#!/.terraform/**/
+#!lock.json
